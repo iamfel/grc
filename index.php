@@ -36,62 +36,29 @@ include "ncss.php";
 <!-- Preloader End -->
 
 <!-- Top-Bar START -->
-<div id="top-bar" class="hidden-sm-down">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-9 col-12">
-        <div class="top-bar-welcome">
-          <ul>
-            <li>Welcome to GRC Integrated Services Limited</li>
-          </ul>
-        </div>
-        <div class="top-bar-info">
-          <ul>
-            <li><i class="fa fa-phone"></i>(+123) 456 7890
-            <li>
-            <li><i class="fa fa-envelope"></i>info@grc.com.ng
-            <li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-3 col-12">
-        <ul class="social-icons hidden-md-down">
-          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-          <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
+<?php
+
+include "topbar.php";
+
+?>
 <!-- Top-Bar END -->
 
 <!-- Navbar START -->
 <header>
   <nav id="navigation4" class="container navigation">
     <div class="nav-header">
-      <a class="nav-brand" href="index.html">
+      <a class="nav-brand" href="index.php">
         <img src="img/logos/logo.png" class="main-logo" alt="logo" id="main_logo">
       </a>
       <div class="nav-toggle"></div>
     </div>
     <div class="nav-menus-wrapper">
       <ul class="nav-menu align-to-right">
-        <li><a href="index.php">Home</a>
-     
-        </li>
-      
-      
-        <li><a href="index.php">About Us</a>
-     
-     </li>
-     <li><a href="index.php">Our Services</a>
-     
-     </li>
-     <li><a href="index.php">Our Team</a>
-     
-     </li>
+  <?php
+
+include "menu.php";
+
+?>
       
        
       
@@ -177,14 +144,35 @@ include "ncss.php";
       <div class="col-md-4 col-sm-12 col-12">
         <div class="serv-section-2 serv-section-2-act">
           <div class="serv-section-2-icon serv-section-2-icon-act">
-            <i class="icon-settings"></i>
+          <i class="icon-worldwide"></i>
+          </div>
+          <div class="serv-section-desc">
+            <h4>Governance   </h4>
+
+          </div>
+          <div class="section-heading-line-left"></div>
+          <p>
+            We development/Review of policies and procedures to meet the requirements of approved Codes of Corporate Governance ..
+
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-12 col-12">
+        <div class="serv-section-2 serv-section-2-act">
+          <div class="serv-section-2-icon serv-section-2-icon-act">
+          <i class="icon-balance3"></i>
           </div>
           <div class="serv-section-desc">
             <h4>Risk management </h4>
 
           </div>
           <div class="section-heading-line-left"></div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+          <p>
+   
+          We carry out Enterprise risk management framework implementation , Risk management consulting and training ...
+ 
+            </p>
         </div>
       </div>
 
@@ -194,25 +182,13 @@ include "ncss.php";
             <i class="icon-settings"></i>
           </div>
           <div class="serv-section-desc">
-            <h4>Risk management </h4>
+            <h4>Compliance  </h4>
 
           </div>
           <div class="section-heading-line-left"></div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-        </div>
-      </div>
-
-      <div class="col-md-4 col-sm-12 col-12">
-        <div class="serv-section-2 serv-section-2-act">
-          <div class="serv-section-2-icon serv-section-2-icon-act">
-            <i class="icon-settings"></i>
-          </div>
-          <div class="serv-section-desc">
-            <h4>Risk management </h4>
-
-          </div>
-          <div class="section-heading-line-left"></div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+          <p>
+We development/Review  Compliance policies to meet the requirements of  regulators/supervisors and international  .....
+          </p>
         </div>
       </div>
 
@@ -221,42 +197,52 @@ include "ncss.php";
       <div class="col-md-4 col-sm-12 col-12 mt-10">
         <div class="serv-section-2 serv-section-2-act">
           <div class="serv-section-2-icon serv-section-2-icon-act">
-            <i class="icon-settings"></i>
+          <i class="icon-diamond"></i>
           </div>
           <div class="serv-section-desc">
-            <h4>Risk management </h4>
+            <h4>Assurance  </h4>
 
           </div>
           <div class="section-heading-line-left"></div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+          <p>
+We carry out	Tax consulting/advisory services, Revenue collection and advisory services, Income assurance and recovery  ...
+
+          </p>
         </div>
       </div>
 
       <div class="col-md-4 col-sm-12 col-12 mt-10">
         <div class="serv-section-2 serv-section-2-act">
           <div class="serv-section-2-icon serv-section-2-icon-act">
-            <i class="icon-settings"></i>
+            <!-- <i class="icon-settings"></i> -->
+            <i class="icon-bank"></i>
           </div>
           <div class="serv-section-desc">
-            <h4>Risk management </h4>
+            <h4>Internal Control </h4>
 
           </div>
           <div class="section-heading-line-left"></div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+          <p>
+            We carry out the 	design of internal control framework    and development of Internal control policies and processes ..
+
+          </p>
         </div>
       </div>
 
       <div class="col-md-4 col-sm-12 col-12 mt-10">
         <div class="serv-section-2 serv-section-2-act">
           <div class="serv-section-2-icon serv-section-2-icon-act">
-            <i class="icon-settings"></i>
+            <i class="icon-wallet2"></i>
           </div>
           <div class="serv-section-desc">
-            <h4>Risk management </h4>
+            <h4> Advisory Services </h4>
 
           </div>
           <div class="section-heading-line-left"></div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+          <p>
+We carry out feasibility study and appraisal, development of Accounting manuals and policies, 	Training on Accounting and Finance....
+
+          </p>
         </div>
       </div>
 
@@ -358,7 +344,7 @@ include "ncss.php";
 <div class="section-block">
   <div class="container">
     <div class="section-heading center-holder">
-      <span>Meet our team</span>
+      <span>Board Members</span>
       <h3>Team of professionals</h3>
       <div class="section-heading-line"></div>
       <p>
@@ -373,11 +359,13 @@ include "ncss.php";
       <div class="col-lg-3 col-md-6 col-12 mx-auto">
         <div class="team-box-2">
           <div class="team-box-2-image">
-            <img src="http://via.placeholder.com/255x295" alt="member">
+            <img src="img/sekanem.JPG" alt="member">
             <div class="team-box-2-overlay">
               <div class="team-box-2-name">
-                <h4>Samm Bock</h4>
-                <h5>Support Enginer</h5>
+           
+
+                <h4>SAMUEL EKANEM </h4>
+                <h5>MANAGING DIRECTOR/CEO</h5>
               </div>
            
             </div>
@@ -387,11 +375,11 @@ include "ncss.php";
       <div class="col-lg-3 col-md-6 col-12 mx-auto">
         <div class="team-box-2">
           <div class="team-box-2-image">
-            <img src="http://via.placeholder.com/255x295" alt="member">
+            <img src="img/rufai.jpg" alt="member">
             <div class="team-box-2-overlay">
               <div class="team-box-2-name">
-                <h4>Mary Cay</h4>
-                <h5>Support Enginer</h5>
+                <h4>RUFAI ALABI </h4>
+                <h5>NON-EXECUTIVE DIRECTOR</h5>
               </div>
            
             </div>
@@ -402,11 +390,11 @@ include "ncss.php";
       <div class="col-lg-3 col-md-6 col-12 mx-auto">
         <div class="team-box-2">
           <div class="team-box-2-image">
-            <img src="http://via.placeholder.com/255x295" alt="member">
+            <img src="img/agnes.jpg" alt="member">
             <div class="team-box-2-overlay">
               <div class="team-box-2-name">
-                <h4>Henry Ford</h4>
-                <h5>Support Enginer</h5>
+                <h4>MRS. AGNES EKANEM</h4>
+                <h5>EXECUTIVE DIRECTOR</h5>
               </div>
             
             </div>
@@ -424,25 +412,28 @@ include "ncss.php";
       <div class="col-lg-3 col-md-6 col-12 mx-auto">
         <div class="team-box-2">
           <div class="team-box-2-image">
-            <img src="http://via.placeholder.com/255x295" alt="member">
+            <img src="img/jimmy.jpg" alt="member">
             <div class="team-box-2-overlay">
               <div class="team-box-2-name">
-                <h4>Henry Ford</h4>
-                <h5>Support Enginer</h5>
+                <h4>SUNDAY MICHAEL JIMMY ESQ</h4>
+                <h5>NON-EXECUTIVE DIRECTOR</h5>
               </div>
             
             </div>
           </div>
         </div>
       </div>
+     
+
+
       <div class="col-lg-3 col-md-6 col-12 mx-auto">
         <div class="team-box-2">
           <div class="team-box-2-image">
-            <img src="http://via.placeholder.com/255x295" alt="member">
+            <img src="img/gbeleyi.jpg" alt="samuel-ekanem CEO"  style="height: 100% !important;">
             <div class="team-box-2-overlay">
               <div class="team-box-2-name">
-                <h4>Henry Ford</h4>
-                <h5>Support Enginer</h5>
+              <h4>OLUKAYODE GBELEYI </h4>
+                <h5>CHAIRMAN BOARD OF DIRECTORS</h5>
               </div>
             
             </div>
@@ -558,115 +549,11 @@ include "ncss.php";
 <!--Testmonials END-->
 
 <!-- Footer START -->
-<footer>
-  <div class="container">
-    <div class="row">
-      <!-- Column 1 Start -->
-      <div class="col-md-4 col-sm-6 col-12">
-        <h3>About Us</h3>
-        <div class="mt-25">
-          <img src="img/logos/logo.png" alt="footer-logo">
-          <p class="mt-25">
-            GRC Integrated Services is a multi-disciplinary consulting firm with a strong focus on Governance,
-             Risk management and Compliance (GRC), Assurance, Internal control, Financial advisory and General services. 
-            .</p>
-          <div class="footer-social-icons mt-25">
-            <ul>
-              <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-              <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-              <li><a href="#"><i class="fa fa-skype"></i></a></li>
-              <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <!-- Column 1 End -->
+<?php
 
-      <!-- Column 2 Start -->
-      <div class="col-md-3 col-sm-6 col-12">
-        <h3>Quick Links</h3>
-        <ul class="footer-list">
-          <li><a href="#">Strategic Consulting</a></li>
-          <li><a href="#">Sales Services</a></li>
-          <li><a href="#">Market Research</a></li>
-          <li><a href="#">Online Reputation</a></li>
-          <li><a href="#">Strategic Consulting</a></li>
-          <li><a href="#">Sales Services</a></li>
-          <li><a href="#">Market Research</a></li>
-        </ul>
-      </div>
-      <!-- Column 2 End -->
+include "footer.php";
 
-      <!-- Column 3 Start -->
-      <div class="col-md-3 col-sm-6 col-12">
-        <h3>Recent Posts</h3>
-        <div class="mt-25">
-          <!-- Post Start -->
-          <div class="footer-recent-post clearfix">
-            <div class="footer-recent-post-thumb">
-              <img src="http://via.placeholder.com/65x65" alt="img">
-            </div>
-            <div class="footer-recent-post-content">
-              <span>February 7, 2018</span>
-              <a href="#">Advices for young designers</a>
-            </div>
-          </div>
-          <!-- Post End -->
-          <!-- Post Start -->
-          <div class="footer-recent-post clearfix">
-            <div class="footer-recent-post-thumb">
-              <img src="http://via.placeholder.com/65x65" alt="img">
-            </div>
-            <div class="footer-recent-post-content">
-              <span>February 7, 2018</span>
-              <a href="#">What Planning Process Needs?</a>
-            </div>
-          </div>
-          <!-- Post End -->
-          <!-- Post Start -->
-          <div class="footer-recent-post clearfix">
-            <div class="footer-recent-post-thumb">
-              <img src="http://via.placeholder.com/65x65" alt="img">
-            </div>
-            <div class="footer-recent-post-content">
-              <span>February 7, 2018</span>
-              <a href="#">Lorem ipsum dolor sit amet.</a>
-            </div>
-          </div>
-          <!-- Post End -->
-        </div>
-      </div>
-      <!-- Column 3 End -->
-
-      <!-- Column 4 Start -->
-      <div class="col-md-2 col-sm-6 col-12">
-        <h3>Tags</h3>
-        <div class="footer-tags mt-25">
-          <a href="#">Business</a>
-          <a href="#">Conusltant</a>
-          <a href="#">Coach</a>
-          <a href="#">UX</a>
-          <a href="#">API</a>
-          <a href="#">Reputation</a>
-          <a href="#">Research</a>
-          <a href="#">Sale</a>
-          <a href="#">Service</a>
-          <a href="#">UI</a>
-          <a href="#">Web</a>
-          <a href="#">WebDesign</a>
-        </div>
-      </div>
-      <!-- Column 4 End -->
-    </div>
-
-    <!-- Footer Bar Start -->
-    <div class="footer-bar">
-      <p><span class="primary-color">SpecThemes</span> © 2018. All Rights Reserved.</p>
-    </div>
-    <!-- Footer Bar End -->
-  </div>
-</footer>
+?>
 <!-- Footer END -->
 
 
